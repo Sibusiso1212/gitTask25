@@ -1,0 +1,266 @@
+* {
+
+    margin: 0em;
+    padding: 0em;
+    outline: none !important;
+}
+
+body {
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: tahoma, sans-serif;
+    color: aliceblue;
+
+
+}
+
+p {
+    line-height: 1.5em;
+    letter-spacing: .2em;
+}
+
+
+
+#main_container {
+    text-align: center;
+    max-width: 90%;
+    margin: 1em auto;
+
+
+}
+
+
+ul {
+
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+
+#accordion {
+    text-align: center;
+    margin: 1em auto;
+    padding: 2em;
+    border-radius: .5em;
+    background-color: rgb(5, 24, 37);
+
+}
+
+/*About*/
+#about_header {
+    margin: 2em auto;
+    max-width: 50%;
+
+}
+
+#profile_image {
+    margin: 1em auto;
+    width: 10%;
+
+}
+
+#founder_name {
+    font-weight: bold;
+    color: #006699;
+    margin: 0 auto;
+}
+
+#gs_welcome_note {
+
+    text-align: left;
+    color: gray;
+    font-family: tahoma;
+}
+
+#welcome_header {
+
+    color: gray;
+    font-size: 130%;
+    width: 100%;
+    margin: 1em auto;
+}
+
+/*Contact form*/
+#form_container {
+
+    margin: 0em auto;
+    width: 60%;
+}
+
+#contact_form {
+
+    margin: 0em auto;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1em;
+    color: gray;
+
+}
+
+#contact_header {
+    width: 50%;
+    margin: 2em auto;
+    padding: .2em;
+    text-align: center;
+    color: gray;
+}
+
+#whatsapp_icon img {
+
+    position: fixed;
+    left: 90%;
+    bottom: 40%;
+    width: 5em;
+
+
+}
+
+#errorMessage {
+
+    color: white;
+}
+
+/*Portfolio*/
+#portfolio_wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 2em auto;
+
+}
+
+.portfolio_circle {
+    text-align: center;
+    margin: 2em 2em;
+    display: inline-block;
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    display: none;
+    box-shadow: -3px -3px 30px #FFFFFF73, 3px 3px 10px #C49D5A73;
+}
+
+.portfolio {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1em;
+    color: #C49D5A;
+}
+
+.portfolio_images {
+
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+    width: 5em;
+}
+
+#portfolio_information_wrapper {
+
+    margin: 0 auto;
+
+}
+
+.portfolio_information {
+
+    border-radius: .4em;
+    display: none;
+    padding: .3em;
+    margin: 2em auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.view_button {
+    margin: 1em auto;
+    padding: .3em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #C49D5A;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+
+
+}
+
+.close_button {
+
+    margin: 1em;
+    padding: .3em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #C49D5A;
+    border-radius: 45%;
+    width: 20%;
+
+
+}
+
+
+/*Individual selection of portfolio circles*/
+
+#personalInformation {
+
+    display: none;
+}
+
+#skillsAndEducation {
+
+    display: none;
+}
+
+#workExperience {
+
+    display: none;
+}
+
+
+
+/*Portfolio content*/
+#portfolio_information_wrapper {
+
+    width: 60%;
+    text-align: center;
+}
+
+#skills_and_educaction_data {
+
+    display: none;
+}
+
+#work_experience_data {
+
+    display: none;
+}
+
+/*Table Portfolio information*/
+
+table {
+
+    margin: 2em auto;
+    width: 100%;
+}
+
+th {
+
+    color: #C49D5A;
+
+}
+
+td {
+    margin: 1em auto;
+    text-align: left;
+    color: white;
+    padding: .6em;
+    font-weight: bold;
+    color: gray;
+}

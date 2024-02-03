@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-family: tahoma, sans-serif;
+    background-color: #132848 !important;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 0;
+
+}
+
+
+p {
+    line-height: 1.5em;
+    letter-spacing: .1em;
+}
+
+.logo {
+
+    text-align: center;
+    padding: 1em 0;
+
+    margin: 0 auto;
+
+}
+
+#toggle-button {
+    background-color: white;
+    margin-top: .5em;
+    border: none;
+}
+
+.trade_mark {
+
+    font-size: 1.0em;
+    border-bottom: .2em solid #C49D5A;
+    border-top: .2em solid #C49D5A;
+    border-radius: 20em;
+    margin-top: 1em;
+    margin-right: .4em;
+    color: #C49D5A;
+}
+
+#webdesign {
+    font-family: tahoma, arial, sans-serif;
+    font-size: 0.9em;
+    color: #C49D5A;
+}
+
+#word_design {
+    color: #4B8393;
+}
+
+#the_letter_D {
+    font-style: italic;
+
+}
+
+#navBar {
+
+    text-align: center;
+    width: 100%;
+    background-color: #132848 !important;
+    z-index: 1;
+    padding-bottom: 0em;
+
+
+
+}
+
+
+
+
+Ul li a {
+
+    margin: .5em;
+    font-weight: bold;
+    color: #C49D5A !important;
+    padding: .2em;
+
+
+}
+
+
+li a:hover {
+
+
+    color: black !important;
+
+}
+
+.jumbotron {
+    width: 100% !important;
+    text-align: center;
+    margin: 2em auto;
+    background-image: url("/images/gswebdesignsImages/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFDF9 !important;
+    font-weight: bold;
+
+
+}
+
+#add_space {
+    text-align: center;
+    margin: 3em auto;
+
+}
+
+#welcome_banner {
+
+    font-weight: bold;
+    color: white !important;
+
+}
+
+.card {
+    border: .1em solid lime;
+}
+
+
+.card-title {
+    text-align: center;
+    background-color: #ffffff;
+    padding: .4em;
+    border-radius: .4em;
+    text-decoration: none;
+    box-shadow: .1em .1em .7em .1em;
+
+}
+
+.card-title a {
+    text-decoration: none !important;
+    color: #006699;
+
+}
+
+.card-text {
+
+    margin: 1em;
+    text-align: left;
+
+}
+
+#gs_adds {
+
+    color: darkgrey;
+    text-align: center;
+    width: 100%;
+    margin: .1em auto;
+    padding-top: 2em;
+
+
+}
+
+/* adverts cards styles */
+#social_links {
+    padding: 1em;
+    width: 30%;
+    margin: 1em auto;
+    display: inline
+}
+
+#social_links a {
+
+    margin: .4em;
+    text-decoration: none;
+    color: #C49D5A;
+    font-size: 2em;
+
+}
+
+#hrFotter {
+    margin: 1em auto;
+    width: 50%;
+}
+
+#footer {
+    text-align: center;
+    margin: .7em auto;
+    margin-bottom: 0em;
+    padding: 2em;
+    background-color: white !important;
+}

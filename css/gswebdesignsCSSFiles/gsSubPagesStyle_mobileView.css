@@ -1,0 +1,296 @@
+/*Chnages the display and re-arranged element when in mobile view - Sub pages*/
+@media screen and (max-width:80em) {
+
+   * {
+
+      margin: 0em;
+      padding: 0em;
+   }
+
+   body {
+
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      font-family: tahoma, sans-serif;
+
+      color: aliceblue;
+
+
+   }
+
+
+   p {
+      line-height: 1.5em;
+      letter-spacing: .1em;
+   }
+
+   #trade_mark {
+
+      font-size: 1.3em;
+      border-bottom: .2em solid lime;
+      border-top: .2em solid lime;
+      border-radius: 13em;
+      margin-top: 1em;
+      margin-left: .10em;
+      margin-right: .4em;
+   }
+
+   #webdesign {
+      font-family: tahoma, arial, sans-serif;
+      font-size: 1em;
+   }
+
+   #navBar {
+      margin: 0 auto;
+      text-align: left;
+      z-index: 1;
+      padding: 1em;
+      width: 100%;
+
+
+   }
+
+   #main_container {
+      text-align: center;
+   }
+
+
+   #profile_image {
+      margin: 1em auto;
+      text-align: center;
+      width: 90%;
+   }
+
+   #founder_name {
+      font-weight: bold;
+      color: #006699;
+      margin: 0 auto;
+
+   }
+
+   .logo {
+
+      text-align: left;
+      padding: 0;
+
+      margin: 0 auto;
+
+   }
+
+   Ul li {
+
+      margin: .3em;
+      font-weight: bold;
+      padding: .4em;
+   }
+
+   li a:hover {
+      border-bottom: none;
+
+   }
+
+   #welcome_banner {
+      font-weight: bold;
+      color: darkgrey;
+
+   }
+
+   #gs_adds {
+
+      color: darkgrey;
+      text-align: center;
+      width: 100%;
+      margin: .1em auto;
+
+
+      padding-top: 2em
+   }
+
+   #add_space_logo {
+      color: gray;
+      font-size: 1.3em;
+      border-bottom: .2em solid lime;
+      border-top: .2em solid lime;
+      border-radius: 13em;
+      margin: .3em;
+
+   }
+
+   /*Contact form*/
+   #form_container {
+
+      margin: 0em auto;
+      width: 90%;
+
+   }
+
+   #contact_header {
+      margin: 2em auto;
+      width: 100%;
+      color: #C5CED3;
+
+   }
+
+   #whatsapp_icon img {
+
+      position: fixed;
+      left: 10em;
+      bottom: 45%;
+      width: 3em;
+
+   }
+
+   label {
+      text-align: left;
+      margin-left: 1em;
+      color: gray;
+   }
+
+   #sendEmailbutton {
+      width: 100%;
+   }
+
+   /* Portfolio*/
+
+   #portfolio_wrapper {
+      width: 100%;
+
+      margin: 2em auto;
+
+   }
+
+   .portfolio_circle {
+      text-align: center;
+      margin: 2em 2em;
+      display: inline-block;
+      height: 15em;
+      width: 15em;
+      border-radius: 50%;
+      box-shadow: -3px -3px 30px #FFFFFF73, 3px 3px 10px #C49D5A73;
+   }
+
+   .portfolio {
+      text-align: center;
+      font-weight: bold;
+      margin-top: 1em;
+      color: #C49D5A;
+   }
+
+   .portfolio_images {
+      margin-top: 3em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+
+      width: 5em;
+   }
+
+   .portfolio_information {
+      border-radius: .4em;
+      display: none;
+      padding: .3em;
+      margin: 2em auto;
+      width: 100%;
+      background-color: white;
+      box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+   }
+
+   .view_button {
+      margin: 1em auto;
+      padding: .3em;
+      font-weight: bold;
+      border: none;
+      color: white;
+      background-color: #C49D5A;
+      border-radius: 55%;
+      width: 50%;
+
+   }
+
+   .close_button {
+
+      margin: 1em;
+
+      padding: .3em;
+      font-weight: bold;
+      border: none;
+      color: white;
+      background-color: #C49D5A;
+      border-radius: 45%;
+      width: 30%;
+
+   }
+
+   /*Portfolio content*/
+
+   #portfolio_information_wrapper {
+
+      width: 100%;
+      text-align: center;
+
+   }
+
+   #skills_and_educaction_data {
+
+      display: none;
+   }
+
+   #work_experience_data {
+
+      display: none;
+   }
+
+   /*Table Portfolio information*/
+   table {
+      margin: 2em auto;
+      width: 100%;
+   }
+
+   th {
+      color: #006699;
+      text-decoration: underline;
+
+   }
+
+   td {
+
+      margin: 1em auto;
+      text-align: left;
+      color: white;
+      padding: .6em;
+      font-weight: bold;
+      color: gray;
+   }
+
+
+   #footer {
+      text-align: center;
+      margin: .7em auto;
+      margin-bottom: 0em;
+      padding: 2em;
+      background-color: lightgray;
+   }
+
+   #hrFotter {
+      margin: 1em auto;
+      width: 50%;
+   }
+
+   #social_links {
+      padding: 1em;
+      width: 50%;
+      width: 50%;
+      margin: 1em auto;
+
+   }
+
+   #social_links a {
+
+      margin: .4em;
+      text-decoration: none;
+      color: #C49D5A;
+      font-size: 2em;
+
+   }
+
+}
