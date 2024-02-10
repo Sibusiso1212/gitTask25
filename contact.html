@@ -64,9 +64,10 @@
         </form>
       </div>
     </nav>
+    <!--Contact form container for easy manipulation-->
     <div id="form_container">
       <h1 id="contact_header">Get in touch</h1>
-      <form>
+      <form name="contactGS"  method="post">
         <div class="form-group">
           <label for="name">Name and Surname</label>
           <input type="text" class="form-control" id="name" name="name">
@@ -88,7 +89,7 @@
           <label for="infor">Get Marketing information?</label><br>
         </div>
         <div class="form-group">
-          <input type="submit" name="submit" class="btn btn-primary" value="Send E-mail">
+          <input id="contactUS" type="submit" name="submit" class="btn btn-primary" value="Send E-mail">
         </div>
       </form>
     </div>
@@ -110,8 +111,8 @@
       </footer>
     </div>
   </div>
-  <!--Boostrap JS -->
 
+  <!--Boostrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -121,6 +122,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+    <!--JS that validates the contact form on the contact us page-->
+    <script src="JavaScripts/gsJS.js"></script>
 
 </body>
 

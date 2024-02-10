@@ -8,7 +8,10 @@ body {
     text-align: center;
     -webkit-font-smoothing: antialiased;
     font-family: tahoma, sans-serif;
-    background-color: #132848 !important;
+    background-image: url("/images/gswebdesignsImages/backCover.jpg");
+    
+    
+    
 }
 
 .wrapper {
@@ -28,7 +31,6 @@ p {
 
     text-align: center;
     padding: 1em 0;
-
     margin: 0 auto;
 
 }
@@ -72,13 +74,9 @@ p {
     background-color: #132848 !important;
     z-index: 1;
     padding-bottom: 0em;
-
-
+    opacity: .8;
 
 }
-
-
-
 
 Ul li a {
 
@@ -90,11 +88,9 @@ Ul li a {
 
 }
 
-
 li a:hover {
 
-
-    color: black !important;
+    color: white !important;
 
 }
 
@@ -102,12 +98,11 @@ li a:hover {
     width: 100% !important;
     text-align: center;
     margin: 2em auto;
-    background-image: url("/images/gswebdesignsImages/background.jpeg");
+    background-color: black !important;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #FFFDF9 !important;
+    color: grey !important;
     font-weight: bold;
-
 
 }
 
@@ -120,37 +115,41 @@ li a:hover {
 #welcome_banner {
 
     font-weight: bold;
-    color: white !important;
+    color: grey !important;
 
 }
 
-.card {
-    border: .1em solid lime;
+    .card-title a {
+        text-decoration: none !important;
+        color: #006699;
+    
+    }
+
+    .card-title {
+        text-align: center;
+        background-color: #ffffff;
+        padding: .4em;
+        border-radius: .4em;
+        text-decoration: none;
+        box-shadow: .1em .1em .7em .1em;
+        color:#C49D5A;
+    
+    }
+
+    .card-text {
+
+        margin: 1em;
+        text-align: left;
+        
+    
+    }
+    
+
+.btn {
+    background-color: #C49D5A !important;
+    border: none !important;
 }
 
-
-.card-title {
-    text-align: center;
-    background-color: #ffffff;
-    padding: .4em;
-    border-radius: .4em;
-    text-decoration: none;
-    box-shadow: .1em .1em .7em .1em;
-
-}
-
-.card-title a {
-    text-decoration: none !important;
-    color: #006699;
-
-}
-
-.card-text {
-
-    margin: 1em;
-    text-align: left;
-
-}
 
 #gs_adds {
 
@@ -192,3 +191,31 @@ li a:hover {
     padding: 2em;
     background-color: white !important;
 }
+
+/*Save for later page*/
+
+#saved-items {
+    margin-bottom: 20px;
+}
+
+#add-item {
+    display: flex;
+    align-items: center;
+}
+
+#item-url {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#saved{
+
+    color:white;
+}
+
+
+

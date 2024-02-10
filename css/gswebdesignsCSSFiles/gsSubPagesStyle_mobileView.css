@@ -1,5 +1,5 @@
 /*Chnages the display and re-arranged element when in mobile view - Sub pages*/
-@media screen and (max-width:80em) {
+@media screen and (max-width:60em) {
 
    * {
 
@@ -191,7 +191,7 @@
       padding: .3em;
       margin: 2em auto;
       width: 100%;
-      background-color: white;
+      background-color: greenyellow;
       box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
    }
 

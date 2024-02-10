@@ -55,8 +55,11 @@ ul {
 }
 
 #profile_image {
-    margin: 1em auto;
-    width: 10%;
+    width: 20%;
+    float: left;
+    /* Float the image to the left */
+    margin-right: 2em;
+    /* Add a margin to the right of the image */
 
 }
 
@@ -67,10 +70,12 @@ ul {
 }
 
 #gs_welcome_note {
-
+    
+    
     text-align: left;
-    color: gray;
-    font-family: tahoma;
+    color: white;
+    overflow: hidden;
+     margin: 1em;
 }
 
 #welcome_header {
@@ -119,10 +124,6 @@ label {
 
 }
 
-#errorMessage {
-
-    color: white;
-}
 
 /*Portfolio*/
 #portfolio_wrapper {
@@ -156,7 +157,7 @@ label {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-
+    color:white !important;
     width: 5em;
 }
 
@@ -167,13 +168,12 @@ label {
 }
 
 .portfolio_information {
-
+    
     border-radius: .4em;
     display: none;
     padding: .3em;
     margin: 2em auto;
     width: 100%;
-    background-color: white;
     box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
 }
 
@@ -193,14 +193,15 @@ label {
 
 .close_button {
 
-    margin: 1em;
+    margin: 1em auto;
     padding: .3em;
     font-weight: bold;
     border: none;
     color: white;
     background-color: #C49D5A;
-    border-radius: 45%;
-    width: 20%;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
 
 
 }
@@ -211,6 +212,8 @@ label {
 #personalInformation {
 
     display: none;
+    
+    
 }
 
 #skillsAndEducation {
@@ -235,11 +238,13 @@ label {
 #skills_and_educaction_data {
 
     display: none;
+    
 }
 
 #work_experience_data {
 
     display: none;
+    
 }
 
 /*Table Portfolio information*/
@@ -264,3 +269,5 @@ td {
     font-weight: bold;
     color: gray;
 }
+
+

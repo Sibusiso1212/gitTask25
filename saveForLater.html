@@ -5,51 +5,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
   <!--Website title and icon-->
-
   <title>GS WebDesigns - Contact</title>
-  <link rel="icon" href="images/gswebdesignsImages/title_icon.PNG" type="image/png">
-
-  <!--Fontawesome link-->
-
+  <link rel="icon" href="images/gswebdesignsImages/title_icon.PNG" type="image/PNG">
+  <!--Fontawesome l}ink-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
   <!--css for fullscreen view-->
   <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsstyle.css">
-
   <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsSubPagesStyle.css">
-
   <!--css mobileview-->
-
-
   <link rel="stylesheet" href="css/gswebdesignsCSSFiles/gsSubPagesStyle_mobileView.css">
-
-
   <!--Google fonts -->
-
   <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
-
   <!-- Bootstrap CSS -->
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+  <!--Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
   <div class="wrapper">
-    <!--Navigation Bar-->
+    <!--Navigation Bar with navigation links-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
       <div class="logo">
         <a class="navbar-brand" href="index.html">
-          <h1><span class="trade_mark">GS</span><span id="webdesign">Web<span id="word_design"><span
-                  id="the_letter_D">D</span>esigns</span></span></h1>
+          <h3><span class="trade_mark">GS</span><span id="webdesign">Web<span id="word_design"><span
+                  id="the_letter_D">D</span>esigns</span></span></h3>
         </a>
       </div>
-
       <button class="navbar-toggler" id="toggle-button" type="button" data-toggle="collapse"
         data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -63,85 +51,41 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html" tabindex="-1" aria-disabled="false">Portfolio</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="false">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="saveForLater.html" tabindex="-1" aria-disabled="false">Saved For Later</a>
           </li>
         </ul>
       </div>
     </nav>
+    <!--Contact form container for easy manipulation-->
+    <h1 id="saved">Saved Items for Later</h1>
 
-    <div id="main_container">
-
-      <div class="row">
-
-        <div class="col-sm-12">
-
-          <h3 id="welcome_header">Welcome to GS WebDesigns</h3>
-
-
-
-          <div id="profile_image" class="card">
-
-            <img src="images/gswebdesignsImages/profile.jpeg" class="card-img-top" alt="Profile Image">
-
-            <div class="card-body">
-
-              <p class="card-text" id="founder_name">Sibusiso Mhlanga - Founder</p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div id="gs_welcome_note">
-        <p>
-          GS WebDesigns is a digital platform that uses digital spaces to market small, meduim and large businesses. We
-          create websites for businesses and utilise social media to make any business visible to it's
-          customers. We pride ourselves in the diversity of the latest technologies that we use to boost your business
-          online presence.<br>
-          GS WebDesigns is a small company and it operates in Johannesburg, South Africa. We have a team of dedicated
-          web designers and developers that will give you nothing but
-          simple saphistication. Our customer's satisfaction is what drives us to be at our best and deliver on time.
-          <br>
-          Join the winning team that will design and manage your website while you sit and watch the growth of your
-          business. We design applications that makes it
-          posible for your customers to access your services.
-        </p>
-
-      </div>
-
-      <hr>
-
+    <div id="saved-items-container">
+        <!-- Display saved items here dynamically using JavaScript -->
     </div>
 
-    <div>
+    <!-- Form for leaving comments -->
+    <form id="comment-form">
+      <label for="comment">Leave a Comment:</label>
+      <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+      <button type="submit">Submit Comment</button>
+  </form>
 
-      <footer id="footer">
+  <!-- Form for liking the image -->
+  <form id="like-form">
+      <label for="like">Like this Image:</label>
+      <input type="checkbox" id="like" name="like">
+      <button type="submit">Like</button>
+  </form>
+    
 
-        <p><i class="far fa-copyright"></i> 2024 GSWebDesings - All Rights Reserved<br> A division of Okuhle
-          Trading<br>
-
-          <hr id="hrFotter">
-
-        <div id="social_links">
-
-          <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
-
-          <a href="https://api.whatsapp.com/send?phone=270676151864" target="_blank"><i class="fab fa-whatsapp"></i></a>
-
-        </div>
-
-      </footer>
-    </div>
-  </div>
   <!--Boostrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -152,6 +96,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+    <!--Save for later JS-->
+    <script src="JavaScripts/gsJS.js"></script>
 
 </body>
 
