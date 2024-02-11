@@ -8,7 +8,7 @@ body {
     text-align: center;
     -webkit-font-smoothing: antialiased;
     font-family: tahoma, sans-serif;
-    background-image: url("/images/gswebdesignsImages/backCover.jpg");
+    background-color: black !important;
     
     
     
@@ -103,6 +103,8 @@ li a:hover {
     background-size: cover;
     color: grey !important;
     font-weight: bold;
+    display: none;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
 
 }
 

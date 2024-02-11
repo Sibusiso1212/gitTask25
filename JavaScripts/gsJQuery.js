@@ -1,7 +1,11 @@
 
-// Fade in fortfolio circles when page loads
-$(".portfolio_circle").slideDown(1000);
+
+// Animation onload
+$(".portfolio_circle").slideDown(2000);
 $(".portfolio_circle").css("display", "inline-block");
+$("#home_page_jambotron").slideDown(2000);
+$("#home_page_jambotron").css("display", "inline-block");
+
 // view button for portfolio information window - Click to view the portfolion information
 $("#view1").click(function () {
    $("#personal_data").css("display", "block");
