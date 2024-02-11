@@ -212,6 +212,7 @@ label {
 #personalInformation {
 
     display: none;
+    color:white;
     
     
 }
@@ -267,7 +268,7 @@ td {
     color: white;
     padding: .6em;
     font-weight: bold;
-    color: gray;
+    color: white;
 }
 
 

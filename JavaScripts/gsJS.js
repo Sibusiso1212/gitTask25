@@ -1,8 +1,8 @@
 
 
+// gsJS.js
 
-//SAVE FOR LATER
-  document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     // Select all Save for Later buttons
     const saveButtons = document.querySelectorAll('.save-for-later');
 
@@ -28,7 +28,9 @@
             savedItems.push({ title, image, description });
             // Update local storage
             localStorage.setItem('savedItems', JSON.stringify(savedItems));
-            alert('Item saved for later!');
+
+            // Show alert with the count of saved items
+            alert(`Item saved for later! You have ${savedItems.length} items in your Save for Later folder.`);
         } else {
             // Item already saved, show a message or handle accordingly
             alert('Item already saved for later!');
